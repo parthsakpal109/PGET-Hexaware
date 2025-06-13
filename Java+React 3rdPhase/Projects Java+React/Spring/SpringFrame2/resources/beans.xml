@@ -1,0 +1,42 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="aa1" class="packagetest3.SpringFrame2.Address">
+        <property name="hno" value="301"/>
+        <property name="city" value="Pune"/>
+        <property name="pcode" value="21109"/>
+    </bean>
+    <bean id="aa2" class="packagetest3.SpringFrame2.Address">
+        <property name="hno" value="502"/>
+        <property name="city" value="Mumbai"/>
+        <property name="pcode" value="21103"/>
+    </bean>
+    <bean id="aa3" class="packagetest3.SpringFrame2.Address">
+        <property name="hno" value="567"/>
+        <property name="city" value="Mumbai"/>
+        <property name="pcode" value="21145"/>
+    </bean>
+
+    <bean id="s1" class="packagetest3.SpringFrame2.Employee">
+        <property name="id" value="1"/>
+        <property name="name" value="Parth"/>
+        <property name="salary" value="20000"/>
+        <property name="address" ref="aa1"/>
+    </bean>
+
+    <bean id="s2" class="packagetest3.SpringFrame2.Employee">
+        <property name="id" value="2"/>
+        <property name="name" value="Namir"/>
+        <property name="salary" value="30000"/>
+        <property name="address" ref="aa2"/>
+    </bean>
+
+    <bean id="s3" class="packagetest3.SpringFrame2.Employee">
+        <property name="id" value="3"/>
+        <property name="name" value="Mayuresh"/>
+        <property name="salary" value="40000"/>
+        <property name="address" ref="aa3"/>
+    </bean>
+</beans>

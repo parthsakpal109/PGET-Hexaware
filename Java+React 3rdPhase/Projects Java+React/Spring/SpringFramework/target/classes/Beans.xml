@@ -1,0 +1,18 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ 
+    <bean id="s1" class="packagetest2.SpringFramework.Student">
+        <property name="rollno" value="101"/>
+        <property name="name" value="Ajay"/>
+        <property name="fee" value="2000"/>
+    </bean>
+    <bean id="s2" class="packagetest2.SpringFramework.Student">
+     <constructor-arg  index="0" value="102"/>
+          <constructor-arg  index="1" value="Asha"/>
+          <constructor-arg  index="2" value="4000"/>
+     
+	</bean>
+</beans>
+ 
