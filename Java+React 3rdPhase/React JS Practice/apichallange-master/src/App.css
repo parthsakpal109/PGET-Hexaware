@@ -1,0 +1,41 @@
+/* General App Styles */
+body {
+  background-color: rgb(204, 225, 236);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.add-book-container, .login-container, .signup-container {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.add-book-container h2, .login-container h1, .signup-container h1 {
+  text-align: center;
+}
+
+.add-book-container form, .login-container form, .signup-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-book-container form .ui.input, .login-container form .ui.input, .signup-container form .ui.input {
+  margin-bottom: 15px;
+}
+
+.add-book-container form .ui.button, .login-container form .ui.button, .signup-container form .ui.button {
+  align-self: center;
+}
+
+.signup-container .ui.message {
+  text-align: center;
+}
+
+.book-card {
+  margin-bottom: 20px;
+}
