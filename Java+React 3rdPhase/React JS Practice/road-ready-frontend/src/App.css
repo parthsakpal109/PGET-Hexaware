@@ -1,0 +1,62 @@
+
+/*------------------------------------------------------------home page-------------------------------------------------------*/
+.hero-section {
+  height: 80vh;
+  background-image: url('./assets/car-hero.png');
+  background-size: cover;
+}
+/*-------------------------------------------------------payment------------------------------------------------------------------*/
+
+.payment-page {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background: #0d0d0d;
+  color: white;
+  min-height: 100vh;
+}
+
+.payment-form {
+  width: 50%;
+}
+
+.payment-form h2 {
+  margin-bottom: 1rem;
+}
+
+.payment-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  background: #1a1a1a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.form-group-inline {
+  display: flex;
+  gap: 1rem;
+}
+
+.confirm-btn {
+  background: #e50914;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.payment-summary {
+  width: 40%;
+  background: #1a1a1a;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.payment-summary img {
+  width: 150px;
+  margin-bottom: 1rem;
+}
